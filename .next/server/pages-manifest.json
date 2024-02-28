@@ -1,0 +1,18 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/dierenwinkel": "pages/dierenwinkel.html",
+  "/divers": "pages/divers.html",
+  "/garden-centres-canada": "pages/garden-centres-canada.html",
+  "/garden-centres-united-kingdom": "pages/garden-centres-united-kingdom.html",
+  "/garden-webshops-united-kingdom": "pages/garden-webshops-united-kingdom.html",
+  "/garden-webshops-ireland": "pages/garden-webshops-ireland.html",
+  "/": "pages/index.html",
+  "/tuin-blogs-engels": "pages/tuin-blogs-engels.html",
+  "/tuin-blogs-nederlands": "pages/tuin-blogs-nederlands.html",
+  "/tuincentra-nederland-en-belgie": "pages/tuincentra-nederland-en-belgie.html",
+  "/tuincentrum-leveranciers": "pages/tuincentrum-leveranciers.html",
+  "/webshops-nederland-en-belgie": "pages/webshops-nederland-en-belgie.html"
+}
