@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Header from '../components/Header'
 
 const NotFound = (props) => {
   return (
@@ -8,6 +9,8 @@ const NotFound = (props) => {
         <Head>
           <title>404 - Not Found</title>
         </Head>
+        < Header />
+
         <h3>OOPS! PAGE NOT FOUND</h3>
         <div className="not-found-container1">
           <h1 className="not-found-text1">404</h1>

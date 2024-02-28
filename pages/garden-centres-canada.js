@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
-import Header from '../components/header'
+import Header from '../components/Header'
 
 const GardenCentresCanada = (props) => {
   return (
@@ -22,6 +22,7 @@ const GardenCentresCanada = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
         <div className="garden-centres-canada-hero">
           <span className="garden-centres-canada-text">
             The best garden centres on the globe
@@ -119,7 +120,7 @@ const GardenCentresCanada = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-2.webp');
             background-position: center;
           }
           .garden-centres-canada-text {

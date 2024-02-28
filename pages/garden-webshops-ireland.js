@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
 
-import Header from '../components/header'
+import Header from '../components/Header'
 
 const GardenWebshopsIreland = (props) => {
   return (
@@ -23,6 +23,7 @@ const GardenWebshopsIreland = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
         <div className="garden-webshops-ireland-hero">
           <span className="garden-webshops-ireland-text">
             The best garden centres on the globe
@@ -77,7 +78,7 @@ const GardenWebshopsIreland = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-5.webp');
             background-position: center;
           }
           .garden-webshops-ireland-text {

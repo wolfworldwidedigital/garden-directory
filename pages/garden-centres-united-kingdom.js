@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
+import Header from '../components/Header'
 
 const GardenCentresUnitedKingdom = (props) => {
   return (
@@ -21,6 +22,7 @@ const GardenCentresUnitedKingdom = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
         <div className="garden-centres-united-kingdom-hero">
           <span className="garden-centres-united-kingdom-text">
             The best garden centres on the globe
@@ -257,7 +259,7 @@ const GardenCentresUnitedKingdom = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-3.webp');
             background-position: center;
           }
           .garden-centres-united-kingdom-text {

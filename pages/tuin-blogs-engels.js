@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
+import Header from '../components/Header'
 
 import Nav1 from '../components/nav1'
 import Nav2 from '../components/nav2'
@@ -24,6 +25,8 @@ const TuinBlogsEngels = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
+
         <div className="tuin-blogs-engels-hero">
           <span className="tuin-blogs-engels-text">
             The best garden centres on the globe
@@ -265,7 +268,7 @@ const TuinBlogsEngels = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-7.webp');
             background-position: center;
           }
           .tuin-blogs-engels-text {

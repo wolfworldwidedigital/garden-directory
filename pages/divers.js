@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
+import Header from '../components/Header'
 
 
 const Divers = (props) => {
@@ -19,6 +20,8 @@ const Divers = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
+
         <div className="divers-hero">
           <span className="divers-text">
             The best garden centres on the globe
@@ -160,7 +163,7 @@ const Divers = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-10.webp');
             background-position: center;
           }
           .divers-text {

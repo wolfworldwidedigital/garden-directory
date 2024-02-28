@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
 
-import Header from '../components/header'
+import Header from '../components/Header'
 
 const TuincentraNederlandEnBelgie = (props) => {
   return (
@@ -23,6 +23,7 @@ const TuincentraNederlandEnBelgie = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
         <div className="tuincentra-nederland-en-belgie-hero">
           <span className="tuincentra-nederland-en-belgie-text">
             The best garden centres on the globe
@@ -312,7 +313,7 @@ const TuincentraNederlandEnBelgie = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-5.webp');
             background-position: center;
           }
           .tuincentra-nederland-en-belgie-text {

@@ -1,8 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
-
-import Header from '../components/header'
+import Header from '../components/Header'
 
 const Dierenwinkel = (props) => {
   return (
@@ -20,6 +19,8 @@ const Dierenwinkel = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
+
         <div className="dierenwinkel-hero">
           <span className="dierenwinkel-text">
             The best garden centres on the globe
@@ -79,7 +80,7 @@ const Dierenwinkel = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-11.webp');
             background-position: center;
           }
           .dierenwinkel-text {

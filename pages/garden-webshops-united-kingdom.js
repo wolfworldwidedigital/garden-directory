@@ -1,10 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import PlaceCard from '../components/place-card'
-
-import Nav11 from '../components/nav11'
-import Nav21 from '../components/nav21'
-
+import Header from '../components/Header'
 const GardenWebshopsUnitedKingdom = (props) => {
   return (
     <>
@@ -24,6 +21,8 @@ const GardenWebshopsUnitedKingdom = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
+
         <div className="garden-webshops-united-kingdom-hero">
           <span className="garden-webshops-united-kingdom-text">
             The best garden centres on the globe
@@ -180,7 +179,7 @@ const GardenWebshopsUnitedKingdom = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('./assets/hero-1.webp');
+            background-image: url('./assets/hero-8.webp');
             background-position: center;
           }
           .garden-webshops-united-kingdom-text {

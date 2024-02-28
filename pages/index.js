@@ -1,9 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
-
-import Nav1 from '../components/nav1'
-import Nav2 from '../components/nav2'
+import Header from '../components/Header'
 
 const Home = (props) => {
   return (
@@ -21,7 +19,9 @@ const Home = (props) => {
             content="Explore a vibrant array of online garden webshops offering a wide selection of gardening supplies, tools, plants, and outdoor decor."
           />
         </Head>
+        < Header />
         <div className="home-hero">
+
           <span className="home-text">
             The best garden centres on the globe
           </span>
