@@ -51,7 +51,7 @@ const Home = (props) => {
           <div className="home-cards-container">
             <div className="home-container04">
               <img
-                src="./assets/Flag of United Kingdom.H03.2k.webp"
+                src="./assets/uk-flag.webp"
                 className="home-image01"
               />
               <div className="home-container05">
